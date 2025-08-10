@@ -26,7 +26,7 @@ const CustomSidebarHeader = () => {
                 width={20}
                 height={20}
               />
-              <span>ZAAN DEV</span>
+              <span className="font-bold font-mono">!ZAAN/DEV</span>
               {/* <CustomLogo
                 label={"ZAAN DEV"}
                 src={"/lama-logo.svg"}
