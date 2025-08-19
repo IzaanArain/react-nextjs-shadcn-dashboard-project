@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import React from "react";
-
+import CustomImage from "./custom-image";
 interface ICustomLogoProps {
   containerClass?: string;
   imageContainerClass?: string;
@@ -10,8 +10,8 @@ interface ICustomLogoProps {
   label?: string;
   width?: number;
   height?: number;
-  alt?: string;
-  src?: string;
+  alt: string;
+  src: string;
   isOpen?: boolean;
 }
 const CustomLogo = ({
@@ -29,6 +29,14 @@ const CustomLogo = ({
   return (
     <div className={cn("flex gap-2 items-center", containerClass)}>
       <div className={cn(imageContainerClass)}>
+        {/* <CustomImage
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+          containerClass={cn(imageContainerClass)}
+          imageClass={imageClass}
+        /> */}
         {!!src && (
           <Image
             src={src}

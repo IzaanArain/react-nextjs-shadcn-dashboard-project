@@ -10,7 +10,7 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart";
 import { Bar, BarChart, CartesianGrid, XAxis, YAxis } from "recharts";
-import { chartData } from "@/constants";
+import { chartData } from "@/constants/charts";
 
 const chartConfig = {
   desktop: {

@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/sidebar";
 import Image from "next/image";
 import Link from "next/link";
-import CustomLogo from "../custom-logo";
+// import CustomLogo from "../custom-logo";
 
 const CustomSidebarHeader = () => {
   // const { open } = useSidebar();
@@ -28,7 +28,7 @@ const CustomSidebarHeader = () => {
               />
               <span className="font-bold font-mono">!ZAAN/DEV</span>
               {/* <CustomLogo
-                label={"ZAAN DEV"}
+                label={"!ZAAN/DEV"}
                 src={"/lama-logo.svg"}
                 alt={"lama-logo"}
                 isOpen={open}

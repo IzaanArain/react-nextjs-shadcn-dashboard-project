@@ -13,7 +13,7 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 import { ChevronUp, User2 } from "lucide-react";
-import CustomAvatar from "../custom-avatar";
+// import CustomAvatar from "../custom-avatar";
 
 interface ICustomSidebarFooterProps {
   name?: string;

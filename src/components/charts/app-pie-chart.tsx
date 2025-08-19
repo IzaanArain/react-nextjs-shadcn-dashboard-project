@@ -7,7 +7,7 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "../ui/chart";
-import { pieChartData } from "@/constants";
+import { pieChartData } from "@/constants/charts";
 import { Label, Pie, PieChart } from "recharts";
 import { TrendingUp } from "lucide-react";
 
