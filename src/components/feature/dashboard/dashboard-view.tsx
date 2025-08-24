@@ -7,7 +7,7 @@ import { ListTypeEnum } from "@/types";
 
 const DashboardView = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 gap-4 md:h-[calc(100vh-68px)] md:overflow-y-scroll md:pr-4 pb-4">
+    <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 gap-4">
       <div className="bg-primary-foreground p-4 rounded-lg lg:col-span-2 xl:col-span-1 2xl:col-span-2">
         <AppBarChart />
       </div>

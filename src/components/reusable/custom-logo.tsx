@@ -1,7 +1,6 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import React from "react";
-import CustomImage from "./custom-image";
+// import CustomImage from "./custom-image";
 interface ICustomLogoProps {
   containerClass?: string;
   imageContainerClass?: string;

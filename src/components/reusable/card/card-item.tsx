@@ -2,8 +2,7 @@ import { Card, CardContent, CardFooter, CardTitle } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { TCardItem } from "@/types";
 import Image from "next/image";
-import React from "react";
-import CustomImage from "../custom-image";
+// import CustomImage from "../custom-image";
 import { Badge } from "@/components/ui/badge";
 
 interface ICardItemProps {
